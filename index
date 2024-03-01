@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html class="csstransforms no-csstransforms3d csstransitions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Anonīmie narkomāni</title>
+		<!--meta-->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="keywords" content="Anonīmie narkomāni">
+		<meta name="description" content="Anonīmie narkomāni">
+		<!--style-->
+    
+    <link href="static/css/bootstrap.css" rel="stylesheet">
+    <link href="static/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="static/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="static/css/superfish.css">
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+    
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>    
+    <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+    <script type="text/javascript" src="static/js/bootstrap-datetimepicker.min.js"></script>
+    <script src="static/js/bootstrap-tooltip.js"></script>
+		<script src="static/js/bootstrap-popover.js"></script>
+			<body>
+    <script>
+      
+      $( document ).ready(function() {
+          $("[data-toggle='tooltip']").tooltip();
+          $("[data-toggle='popover']").popover({ trigger: "hover", html : true });
+          
+      });
+      
+      $(function (){ 
+         
+      }); 
+      
+    </script>
+		<div class="site_container boxed" style="max-width: 1090px;">
+			<div class="header_container">
+				<div class="header clearfix">
+					<div class="header_left">
+						<a href="/" title="logo">
+							<img src="static/img/logo.png" alt="logo">
+              
+						</a>
+					</div>
+          <div style="float:right;">
+            <div style="float:right;">
+              <a href="?lang=lv" style="float:right"><img src="static/img/lv.png"></a>
+              <a href="?lang=ru" style="float:right"><img src="static/img/ru.png"></a>
+              <a href="?lang=en" style="float:right"><img src="static/img/en.png"></a>
+            </div>
+            <div style="float:right; clear:both;font-size:30px;padding-top:10px;color:#007BC2">
+              +371 28 291 992            </div>
+            <div style="clear:both;float:right;">
+            Anonīms diennakts informācijas tālrunis<br>
+            
+            </div>
+
+          </div>
+            
+          <div style="clear:both"></div>
+          <ul class="sf-menu" style="float:left;margin-top:10px">
+            <li >
+              <a href="/" title="HOME">
+                SĀKUMS              </a>
+            </li>
+            <li >
+              <a href="/par_mums" title="CONTACT">
+                KAS MĒS ESAM              </a>
+            </li>
+            <li >
+              <a href="/vai_es_esmu_atkarigais" title="CONTACT">
+                VAI ES ESMU ATKARĪGAIS?              </a>
+            </li>  
+           
+						
+						<li >
+              								<a target="jft" href="http://www.jftna.org/jft" title="CONTACT">
+							                TIKAI ŠODIEN								</a>
+            </li>
+						
+            <li >
+              <a href="/sapulcu_vietas" title="CONTACT">
+                SAPULČU VIETAS              </a>
+            </li>
+						<li >
+              <a href="/vacancy" title="CONTACT">
+                7. TRADĪCIJA              </a>
+            </li>
+						
+            <li >
+              <a href="/kontakti" title="CONTACT">
+                KONTAKTI              </a>
+            </li>
+          </ul>        
+          
+          
+
+        </div>
+			</div>
+<div class="page relative">
+	<div class="page_layout page_margin_top clearfix">﻿<div class="page_right page_margin_top">
+  <ul>
+     <li class="home_box light_blue">
+      <h2 style="text-align:center;">
+        Visi narkomāni pārstāj lietot narkotikas,&nbsp;bet tikai dažiem tas izdodas dzīves laikā!      </h2>
+    </li>
+  
+    <li class="home_box blue">
+      <h2>
+        Sapulces &scaron;odien:      </h2>
+      <ul class="items_list thin light_blue opening_hours" style="color:#FFFFFF">
+                  <li class="clearfix">
+            <span>
+              Zoom grupa ''ONLINE'' Zoom ID: 255-959-3955, parole:2020            </span>
+            <div class="value">
+              21:00-22:00            </div>
+          </li>
+                  <li class="clearfix">
+            <span>
+              Grupa "SHM" Rīga, Stabu iela 11            </span>
+            <div class="value">
+              19:00-20:00            </div>
+          </li>
+                  <li class="clearfix">
+            <span>
+              Grupa "Teika" Rīgā, Vidrižu iela 1C            </span>
+            <div class="value">
+              20:00-21:00            </div>
+          </li>
+              </ul>
+      <a style="width:50px" class="more light icon_small_arrow margin_right_white" href="/sapulcu_vietas" title="Read more">Vairāk</a>
+    </li>
+    
+
+    
+    <li class="home_box dark_blue">
+      <h2>
+                </h2>
+      <div class="news clearfix" style="color:white">
+                      <div id="datetimepicker4" class="input-append">
+                <input data-format="dd.MM.yyyy" type="text"></input>
+                <span class="add-on">
+                  <i data-time-icon="icon-time" data-date-icon="icon-calendar">
+                  </i>
+                </span>
+              </div>
+
+            <script type="text/javascript">
+              $(function() {
+                $('#datetimepicker4').datetimepicker({
+                  pickTime: false,
+                  endDate: this.localDate  
+                });
+              });
+              $('#datetimepicker4').on('changeDate', function(e) {
+
+                function getAge(fromdate){
+                  
+									
+									
+									var oneDay = 24*60*60*1000; // hours*minutes*seconds*milliseconds
+									var firstDate = new Date(fromdate);
+									var secondDate = new Date();
+
+									var diffDays = Math.round(Math.abs((firstDate.getTime() - secondDate.getTime())/(oneDay)));
+									return diffDays+' dienas';
+
+
+									
+									fromdate.setDate(fromdate.getDate());
+                  todate= new Date();
+                  if (fromdate>=todate) return '0 dienas';
+
+                  var age= [], fromdate= fromdate,
+                  y= [todate.getFullYear(), fromdate.getFullYear()],
+                  ydiff= y[0]-y[1],
+                  m= [todate.getMonth(), fromdate.getMonth()],
+                  mdiff= m[0]-m[1],
+                  d= [todate.getDate(), fromdate.getDate()],
+                  ddiff= d[0]-d[1];
+
+                  if(mdiff < 0 || (mdiff=== 0 && ddiff<0))--ydiff;
+                  if(mdiff<0) mdiff+= 11;
+                  if(ddiff<0){
+                      fromdate.setMonth(m[1]+1, 0);
+                      ddiff= fromdate.getDate()-d[1]+d[0];
+                      --mdiff;
+                  }
+                  if(ydiff> 0) age.push(ydiff+ ' gad'+(ydiff> 1? 'i ':'s'));
+                  if(mdiff> 0) age.push(mdiff+ ' mēne'+(mdiff> 1? 'ši':'sis'));
+                  if(ddiff> 0) age.push(ddiff+ ' diena'+(ddiff> 1? 's':''));
+                  if(age.length>1) age.splice(age.length-1,0,' un ');    
+                  return age.join('');
+                } 
+                $('#calc_dienas').text(getAge(e.date));
+              });
+            </script>
+            <br>
+            <h3><span id="calc_dienas">&nbsp;</span></h3>
+
+      </div>
+    </li>
+
+    <li class="sidebar_box">
+     <h3 class="box_header">Citas Anonīmo Narkomānu saites:</h3>
+           <ul class="contact_data">
+<li><a href="http://www.na.org">www.na.org</a> &ndash; Anonīmo Narkomānu oficiālā lapa.</li>
+<li><a href="http://www.na-msk.ru">www.na-msk.ru</a> &ndash; Maskavas AN sadraudzība.</li>
+<li><a href="http://www.nadanmark.dk">www.nadanmark.dk</a> - Dāņu NA sadraudzība.</li>
+<li><a href="http://www.nasuomi.org">www.nasuomi.org</a> - Somu NA sadraudzība.</li>
+<li><a href="http://www.nanorge.org">www.nanorge.org</a> - Norvēģu NA sadraudzība.</li>
+<li><a href="http://www.nasverige.org">www.nasverige.org</a> - Zviedrijas NA sadraudzība.</li>
+<li><a href="http://www.edmna.org">http://www.edmna.org</a>&nbsp;- Eiropas delegātu sapulce</li>
+</ul>    </li>
+    
+  </ul>
+</div>
+
+
+﻿<div class="page_left page_margin_top">
+      <div class="dropcap_label">
+      <h3>Jaunumi</h3>
+    </div>
+    <br>
+    <p><span style="background-color: #c0c0c0;"><strong>&nbsp;</strong></span></p>
+<h1>&nbsp;</h1>
+<h1>&nbsp;</h1>
+<h1><span style="color: #000000;">&nbsp;</span></h1>
+<p>&nbsp;<iframe src="https://www.youtube.com/embed/axVN6S5xytg" width="632" height="355" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p><iframe src="https://www.youtube.com/embed/BmNJfYqj5bE" width="647" height="364" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p><iframe src="https://www.youtube.com/embed/6TwgmYUMLt8" width="647" height="364" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p><iframe src="https://www.youtube.com/embed/4Nd0v9VW358" width="647" height="364" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p><iframe src="https://www.youtube.com/embed/DbalqJDE7Z0" width="647" height="364" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p></div>
+
+    
+    
+     </div>
+</div>			
+	<div class="footer_container">
+		<div class="footer">
+			<div class="copyright_area clearfix">
+				<div class="copyright_left">
+					© Copyright 2024 <a href="/" title="NA Latvia">NA Latvija</a>
+				</div>
+				<div class="copyright_right">
+					Tel.: +371 28 291 992				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44388031-1', 'na-latvija.lv');
+  ga('send', 'pageview');
+
+</script>		
